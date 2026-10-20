@@ -1,1 +1,1 @@
-all:;nix build&&cp -p result/* .
+all:;nix build&&rm -f frontend*&&cp -p result/* .
